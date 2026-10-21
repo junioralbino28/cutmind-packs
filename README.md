@@ -6,4 +6,4 @@ Cada pacote é um arquivo de uma Release deste repositório. O kit não baixa tu
 
 Quem baixa é o próprio kit, e o catálogo dele diz de onde. Não é preciso baixar nada daqui à mão.
 
-Ainda vazio: os primeiros pacotes entram com a próxima etapa do kit.
+Hoje: 145 filtros e 277 transições, na Release `efeitos-1`. O catálogo (`catalogo.json`, também na Release `catalogo`) lista cada um com nome, tipo, tamanho e sha256.
