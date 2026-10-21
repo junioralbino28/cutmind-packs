@@ -1,6 +1,6 @@
-# CENNO Edit — pacotes
+# CutMind — pacotes
 
-Efeitos, transições, filtros e trilhas do [CENNO Edit](https://github.com/junioralbino28/cenno-edit), já no formato do kit.
+Efeitos, transições, filtros e trilhas do [CutMind](https://github.com/junioralbino28/cutmind), já no formato do kit.
 
 Cada pacote é um arquivo de uma Release deste repositório. O kit não baixa tudo de uma vez: o editor mostra a prévia, e o pacote só desce quando você usa. Os favoritos e os usados por último ficam guardados no seu computador; o resto sai quando o espaço reservado enche.
 

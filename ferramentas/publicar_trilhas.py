@@ -19,7 +19,7 @@ Depois:
 - com `--kit`, copia o catálogo também para `<kit>/assets/pacotes/catalogo.json`.
 
 `--local <pasta>` não sobe nada: monta a mesma árvore da Release numa pasta, para testar
-(servir a pasta por HTTP e apontar CENNO_PACOTES_BASE para ela).
+(servir a pasta por HTTP e apontar CUTMIND_PACOTES_BASE para ela).
 
 uso: python -X utf8 ferramentas/publicar_trilhas.py <pasta> --release trilhas-1 [--kit <raiz do kit>] [--local <pasta>]
 """
@@ -36,7 +36,7 @@ import tempfile
 import time
 from pathlib import Path
 
-REPO = "junioralbino28/cenno-edit-packs"
+REPO = "junioralbino28/cutmind-packs"
 BASE = f"https://github.com/{REPO}/releases/download"
 RAIZ = Path(__file__).resolve().parent.parent
 PREVIA_S = 20
