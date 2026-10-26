@@ -12686,7 +12686,325 @@
    "arquivo": "t-zumbido-de-frequencia.zip",
    "tamanho": 16011,
    "sha256": "e1aeb9dbb6ed08451be594ab1053acc9d1b12c68a3404abb3a017808088adfed"
+  },
+  {
+   "id": "m-antes-e-depois",
+   "tipo": "montagem",
+   "nome": "Antes e depois",
+   "clima": "",
+   "tags": [],
+   "duracao": 15.98,
+   "release": "montagens-1",
+   "arquivo": "m-antes-e-depois.json",
+   "tamanho": 777,
+   "sha256": "1a511fc62868f145f236b0dcffda6386875bcf779c48eef7b1d60e3bf21e718c",
+   "previa": {
+    "arquivo": "m-antes-e-depois.mp4",
+    "tamanho": 4082458,
+    "sha256": "d806841781a4b85a6006c3f2d9386d6aa43de70af869813f03ff770ad0113f76"
+   },
+   "modelo": {
+    "versao": 1,
+    "comeca": "forte",
+    "drop_na_vaga": 5,
+    "golpe": true,
+    "formato": "9:16",
+    "vagas": [
+     {
+      "batidas": 4,
+      "movimento": "parado",
+      "repetir": 4
+     },
+     {
+      "batidas": 1,
+      "repetir": 16
+     }
+    ],
+    "textos": [
+     {
+      "nome": "Antes",
+      "texto": "ANTES",
+      "vaga": 1,
+      "batidas": 16,
+      "x": 540.0,
+      "y": 300.0,
+      "estilo": {
+       "fonte": "Anton",
+       "cor": "#ffffff",
+       "corContorno": "#000000",
+       "tamanho": 1.6,
+       "contorno": 10.0
+      }
+     },
+     {
+      "nome": "Depois",
+      "texto": "DEPOIS",
+      "vaga": 5,
+      "batidas": 16,
+      "x": 540.0,
+      "y": 300.0,
+      "estilo": {
+       "fonte": "Anton",
+       "cor": "#ffe500",
+       "corContorno": "#000000",
+       "tamanho": 1.8,
+       "contorno": 12.0
+      }
+     }
+    ],
+    "transicoes": []
+   }
+  },
+  {
+   "id": "m-drop-rapido",
+   "tipo": "montagem",
+   "nome": "Drop rápido",
+   "clima": "",
+   "tags": [],
+   "duracao": 19.97,
+   "release": "montagens-1",
+   "arquivo": "m-drop-rapido.json",
+   "tamanho": 809,
+   "sha256": "95fabbda492080dfee7c8aed5a71e67535d94b285694cf7600d650f4708bde4f",
+   "previa": {
+    "arquivo": "m-drop-rapido.mp4",
+    "tamanho": 4482690,
+    "sha256": "eac8dc14518edb5617b6366bdf6ac12a77b97532e04e0ec97107a159a7427049"
+   },
+   "modelo": {
+    "versao": 1,
+    "comeca": "forte",
+    "drop_na_vaga": 5,
+    "golpe": true,
+    "formato": "9:16",
+    "vagas": [
+     {
+      "batidas": 4,
+      "repetir": 4
+     },
+     {
+      "batidas": 1,
+      "repetir": 16
+     },
+     {
+      "batidas": 2,
+      "repetir": 4
+     }
+    ],
+    "textos": [
+     {
+      "nome": "Título",
+      "texto": "SEU TÍTULO",
+      "vaga": 1,
+      "batidas": 16,
+      "x": 540.0,
+      "y": 760.0,
+      "estilo": {
+       "fonte": "Anton",
+       "cor": "#ffffff",
+       "corContorno": "#000000",
+       "tamanho": 1.6,
+       "contorno": 10.0
+      }
+     },
+     {
+      "nome": "Chamada",
+      "texto": "SIGA PARA MAIS",
+      "vaga": 21,
+      "batidas": 8,
+      "x": 540.0,
+      "y": 1240.0,
+      "estilo": {
+       "fonte": "Anton",
+       "cor": "#ffe500",
+       "corContorno": "#000000",
+       "tamanho": 1.8,
+       "contorno": 12.0
+      }
+     }
+    ],
+    "transicoes": []
+   }
+  },
+  {
+   "id": "m-fotos-com-zoom",
+   "tipo": "montagem",
+   "nome": "Fotos com zoom",
+   "clima": "",
+   "tags": [],
+   "duracao": 15.98,
+   "release": "montagens-1",
+   "arquivo": "m-fotos-com-zoom.json",
+   "tamanho": 1268,
+   "sha256": "bd9549f0d1947d674a00a6bca31a0fbf169507bdfaeeb5ed82518a382f052f40",
+   "previa": {
+    "arquivo": "m-fotos-com-zoom.mp4",
+    "tamanho": 1824096,
+    "sha256": "5d7b257d7de6a9f9c77f3fcb7375c50e26c343bcb876ca4b67101df4fa80bd55"
+   },
+   "modelo": {
+    "versao": 1,
+    "comeca": "forte",
+    "drop_na_vaga": null,
+    "golpe": false,
+    "formato": "9:16",
+    "vagas": [
+     {
+      "batidas": 2,
+      "movimento": "zoom-in"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-out"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-in"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-out"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-in"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-out"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-in"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-out"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-in"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-out"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-in"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-out"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-in"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-out"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-in"
+     },
+     {
+      "batidas": 2,
+      "movimento": "zoom-out"
+     }
+    ],
+    "textos": [
+     {
+      "nome": "Título",
+      "texto": "SEU TÍTULO",
+      "vaga": 1,
+      "batidas": 4,
+      "x": 540.0,
+      "y": 760.0,
+      "estilo": {
+       "fonte": "Anton",
+       "cor": "#ffffff",
+       "corContorno": "#000000",
+       "tamanho": 1.6,
+       "contorno": 10.0
+      }
+     }
+    ],
+    "transicoes": []
+   }
+  },
+  {
+   "id": "m-lancamento",
+   "tipo": "montagem",
+   "nome": "Lançamento",
+   "clima": "",
+   "tags": [],
+   "duracao": 14.04,
+   "release": "montagens-1",
+   "arquivo": "m-lancamento.json",
+   "tamanho": 816,
+   "sha256": "4c0042ab25a2eb03ca9ce87f0eb5d19e5174d8a63d637d0492414273f55bfa50",
+   "previa": {
+    "arquivo": "m-lancamento.mp4",
+    "tamanho": 1421314,
+    "sha256": "cfff4197ebf691cda5c5d59d1fc8130c9d4c4c6144057b3fd69fd1953b49e8b6"
+   },
+   "modelo": {
+    "versao": 1,
+    "comeca": "forte",
+    "drop_na_vaga": 2,
+    "golpe": true,
+    "formato": "9:16",
+    "vagas": [
+     {
+      "batidas": 8,
+      "movimento": "zoom-in"
+     },
+     {
+      "batidas": 2,
+      "repetir": 6
+     },
+     {
+      "batidas": 8,
+      "movimento": "parado"
+     }
+    ],
+    "textos": [
+     {
+      "nome": "Título",
+      "texto": "CHEGOU",
+      "vaga": 1,
+      "batidas": 8,
+      "x": 540.0,
+      "y": 860.0,
+      "estilo": {
+       "fonte": "Anton",
+       "cor": "#ffffff",
+       "corContorno": "#000000",
+       "tamanho": 2.0,
+       "contorno": 12.0
+      }
+     },
+     {
+      "nome": "Chamada",
+      "texto": "LINK NA BIO",
+      "vaga": 8,
+      "batidas": 8,
+      "x": 540.0,
+      "y": 1240.0,
+      "estilo": {
+       "fonte": "Anton",
+       "cor": "#ffe500",
+       "corContorno": "#000000",
+       "tamanho": 1.8,
+       "contorno": 12.0
+      }
+     }
+    ],
+    "transicoes": []
+   }
   }
  ],
- "gerado": "2026-10-21T21:58:09Z"
+ "gerado": "2026-10-26T10:36:34Z"
 }
