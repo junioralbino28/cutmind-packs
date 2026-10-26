@@ -1,0 +1,20 @@
+{
+  "versao": 1,
+  "id": "drop-rapido",
+  "nome": "Drop rápido",
+  "comeca": "forte",
+  "drop_na_vaga": 5,
+  "golpe": true,
+  "vagas": [
+    {"batidas": 4, "repetir": 4},
+    {"batidas": 1, "repetir": 16},
+    {"batidas": 2, "repetir": 4}
+  ],
+  "textos": [
+    {"nome": "Título", "texto": "SEU TÍTULO", "vaga": 1, "batidas": 16, "x": 540, "y": 760,
+     "estilo": {"fonte": "Anton", "cor": "#ffffff", "tamanho": 1.6, "contorno": 10, "corContorno": "#000000"}},
+    {"nome": "Chamada", "texto": "SIGA PARA MAIS", "vaga": 21, "batidas": 8, "x": 540, "y": 1240,
+     "estilo": {"fonte": "Anton", "cor": "#ffe500", "tamanho": 1.8, "contorno": 12, "corContorno": "#000000"}}
+  ],
+  "transicoes": []
+}

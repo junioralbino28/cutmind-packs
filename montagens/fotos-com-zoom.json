@@ -1,0 +1,22 @@
+{
+  "versao": 1,
+  "id": "fotos-com-zoom",
+  "nome": "Fotos com zoom",
+  "comeca": "forte",
+  "golpe": false,
+  "vagas": [
+    {"batidas": 2, "movimento": "zoom-in"}, {"batidas": 2, "movimento": "zoom-out"},
+    {"batidas": 2, "movimento": "zoom-in"}, {"batidas": 2, "movimento": "zoom-out"},
+    {"batidas": 2, "movimento": "zoom-in"}, {"batidas": 2, "movimento": "zoom-out"},
+    {"batidas": 2, "movimento": "zoom-in"}, {"batidas": 2, "movimento": "zoom-out"},
+    {"batidas": 2, "movimento": "zoom-in"}, {"batidas": 2, "movimento": "zoom-out"},
+    {"batidas": 2, "movimento": "zoom-in"}, {"batidas": 2, "movimento": "zoom-out"},
+    {"batidas": 2, "movimento": "zoom-in"}, {"batidas": 2, "movimento": "zoom-out"},
+    {"batidas": 2, "movimento": "zoom-in"}, {"batidas": 2, "movimento": "zoom-out"}
+  ],
+  "textos": [
+    {"nome": "Título", "texto": "SEU TÍTULO", "vaga": 1, "batidas": 4, "x": 540, "y": 760,
+     "estilo": {"fonte": "Anton", "cor": "#ffffff", "tamanho": 1.6, "contorno": 10, "corContorno": "#000000"}}
+  ],
+  "transicoes": []
+}

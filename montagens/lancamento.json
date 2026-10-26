@@ -1,0 +1,20 @@
+{
+  "versao": 1,
+  "id": "lancamento",
+  "nome": "Lançamento",
+  "comeca": "forte",
+  "drop_na_vaga": 2,
+  "golpe": true,
+  "vagas": [
+    {"batidas": 8, "movimento": "zoom-in"},
+    {"batidas": 2, "repetir": 6},
+    {"batidas": 8, "movimento": "parado"}
+  ],
+  "textos": [
+    {"nome": "Título", "texto": "CHEGOU", "vaga": 1, "batidas": 8, "x": 540, "y": 860,
+     "estilo": {"fonte": "Anton", "cor": "#ffffff", "tamanho": 2.0, "contorno": 12, "corContorno": "#000000"}},
+    {"nome": "Chamada", "texto": "LINK NA BIO", "vaga": 8, "batidas": 8, "x": 540, "y": 1240,
+     "estilo": {"fonte": "Anton", "cor": "#ffe500", "tamanho": 1.8, "contorno": 12, "corContorno": "#000000"}}
+  ],
+  "transicoes": []
+}

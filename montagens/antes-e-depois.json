@@ -1,0 +1,19 @@
+{
+  "versao": 1,
+  "id": "antes-e-depois",
+  "nome": "Antes e depois",
+  "comeca": "forte",
+  "drop_na_vaga": 5,
+  "golpe": true,
+  "vagas": [
+    {"batidas": 4, "repetir": 4, "movimento": "parado"},
+    {"batidas": 1, "repetir": 16}
+  ],
+  "textos": [
+    {"nome": "Antes", "texto": "ANTES", "vaga": 1, "batidas": 16, "x": 540, "y": 300,
+     "estilo": {"fonte": "Anton", "cor": "#ffffff", "tamanho": 1.6, "contorno": 10, "corContorno": "#000000"}},
+    {"nome": "Depois", "texto": "DEPOIS", "vaga": 5, "batidas": 16, "x": 540, "y": 300,
+     "estilo": {"fonte": "Anton", "cor": "#ffe500", "tamanho": 1.8, "contorno": 12, "corContorno": "#000000"}}
+  ],
+  "transicoes": []
+}
