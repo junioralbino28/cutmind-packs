@@ -34,6 +34,8 @@ from pathlib import Path
 from publicar_trilhas import BASE, RAIZ, REPO, _ID, gh, sha256
 
 TIPOS = {"filtro", "transicao"}
+# o nome na tela em inglês, por id (o efeito.json do zip só traz o português)
+NOMES_EN = RAIZ / "nomes-en.json"
 BLOCO = 40  # arquivos por chamada de upload: a linha de comando do Windows tem limite
 
 
@@ -82,12 +84,14 @@ def main() -> int:
     cat = json.loads(cat_p.read_text(encoding="utf-8")) if cat_p.is_file() else {
         "versao": 1, "repo": REPO, "base": BASE, "pacotes": []}
     novos, arquivos = [], sorted(a.pasta.glob("*.zip"))
+    nomes_en = json.loads(NOMES_EN.read_text(encoding="utf-8")) if NOMES_EN.is_file() else {}
     for zp in arquivos:
         pid = zp.stem
         assert _ID.fullmatch(pid), f"id inválido: {pid}"
         man = ler_pacote(zp)
         dur = round(man.get("duracao_ms", 0) / 1000, 3) if man["tipo"] == "transicao" else 0.0
-        novos.append({"id": pid, "tipo": man["tipo"], "nome": man["nome"].strip()[:80], "clima": "", "tags": [],
+        novos.append({"id": pid, "tipo": man["tipo"], "nome": man["nome"].strip()[:80],
+                      **({"nome_en": nomes_en[pid]} if pid in nomes_en else {}), "clima": "", "tags": [],
                       "duracao": dur, "release": a.release, "arquivo": zp.name,
                       "tamanho": zp.stat().st_size, "sha256": sha256(zp)})
     print(f"{len(novos)} pacotes conferidos: {sum(1 for n in novos if n['tipo'] == 'filtro')} filtros, "

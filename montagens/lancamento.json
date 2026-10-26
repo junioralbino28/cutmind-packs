@@ -2,6 +2,7 @@
   "versao": 1,
   "id": "lancamento",
   "nome": "Lançamento",
+  "nome_en": "Launch",
   "comeca": "forte",
   "drop_na_vaga": 2,
   "golpe": true,

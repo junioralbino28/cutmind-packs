@@ -65,12 +65,13 @@ def main() -> int:
             assert m["id"] == mp.stem, f"{mp.name}: o nome do modelo dá o id {m['id']}, não {mp.stem}"
             video = a.exemplos / f"{mp.stem}.mp4"
             assert video.is_file(), f"{mp.stem}: falta o exemplo {video}"
-            modelo = {k: v for k, v in m.items() if k not in ("id", "nome", "criado")}
+            modelo = {k: v for k, v in m.items() if k not in ("id", "nome", "nome_en", "criado")}
             arq = Path(tmp) / f"{pid}.json"
             arq.write_bytes((json.dumps({**modelo, "nome": m["nome"]}, ensure_ascii=False, indent=1) + "\n").encode("utf-8"))
             previa = Path(tmp) / f"{pid}.mp4"
             shutil.copy2(video, previa)
-            novos.append({"id": pid, "tipo": "montagem", "nome": m["nome"], "clima": "", "tags": [],
+            novos.append({"id": pid, "tipo": "montagem", "nome": m["nome"], **({"nome_en": m["nome_en"]} if m.get("nome_en") else {}),
+                          "clima": "", "tags": [],
                           "duracao": duracao(previa), "release": a.release, "arquivo": arq.name,
                           "tamanho": arq.stat().st_size, "sha256": sha256(arq),
                           "previa": {"arquivo": previa.name, "tamanho": previa.stat().st_size, "sha256": sha256(previa)},
