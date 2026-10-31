@@ -1,0 +1,13 @@
+[
+ {"id": "v-cha-ching", "arquivo": "cha-ching.mp3", "nome": "Cha-ching", "nome_en": "Cha-ching", "uso": "preço, mensalidade, dinheiro entrando ou saindo", "volume_ref": 0.32},
+ {"id": "v-taco-bell", "arquivo": "taco-bell-bong.mp3", "nome": "Bong do Taco Bell", "nome_en": "Taco Bell bong", "uso": "a frase de impacto, o número que cai", "volume_ref": 0.42},
+ {"id": "v-discord", "arquivo": "discord.mp3", "nome": "Notificação do Discord", "nome_en": "Discord notification", "uso": "comentário, mensagem, direct chegando", "volume_ref": 0.25},
+ {"id": "v-revelacao", "arquivo": "magic-reveal.mp3", "nome": "Revelação mágica", "nome_en": "Magic reveal", "uso": "o fundo que muda, a IA fazendo, o antes e depois", "volume_ref": 1.6},
+ {"id": "v-ding", "arquivo": "ding.mp3", "nome": "Ding (viral)", "nome_en": "Ding (viral)", "uso": "acerto, o item que entra, a ideia", "volume_ref": 0.33},
+ {"id": "v-whoosh", "arquivo": "woosh.mp3", "nome": "Whoosh (viral)", "nome_en": "Whoosh (viral)", "uso": "o cartão ou o texto que passa", "volume_ref": 0.22},
+ {"id": "v-clique", "arquivo": "click.mp3", "nome": "Clique (viral)", "nome_en": "Click (viral)", "uso": "o botão clicado, o cursor", "volume_ref": 0.26},
+ {"id": "v-core", "arquivo": "core.mp3", "nome": "Core (TikTok)", "nome_en": "Core (TikTok)", "uso": "o fim de um bloco, a virada para o próximo", "volume_ref": 0.5},
+ {"id": "v-faah", "arquivo": "faah.mp3", "nome": "Faah (meme)", "nome_en": "Faah (meme)", "uso": "o susto, o erro, o \"deu ruim\""},
+ {"id": "v-dexter-curto", "arquivo": "dexter-objecao.mp3", "nome": "Dexter (curto)", "nome_en": "Dexter (short)", "uso": "a objeção, o \"tá, mas…\"", "volume_ref": 0.2},
+ {"id": "v-dexter", "arquivo": "dexter.mp3", "nome": "Dexter (completo)", "nome_en": "Dexter (full)", "uso": "suspense, a dúvida que fica no ar", "volume_ref": 0.2}
+]
